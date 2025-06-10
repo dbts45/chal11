@@ -68,4 +68,13 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  
+  .top-left-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;     /* Pas aan indien groter nodig is */
+    height: auto;
+    z-index: 9999;    /* Zorgt dat het boven andere elementen blijft */
+    padding: 10px;    /* Optioneel: wat ruimte vanaf de rand */
+  }
+

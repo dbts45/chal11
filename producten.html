@@ -16,16 +16,117 @@
     </nav>
   </header>
 
-  <main style="padding: 2rem;">
-    <img src="amnesiahaze.jpg" alt="Amnesia Haze" style="max-width: 300px; width: 100%;">
-    <h2>Beschrijving</h2>
-    <p>Amnesia Haze is een populaire sativa-dominante soort met een energiek en creatief effect.</p>
-    <p><strong>Prijs:</strong> €10 / gram</p>
-    <a href="DSTRCT.html" class="btn">Terug naar overzicht</a>
-  </main>
+  <!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Producten</title>
+  <style>
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
 
-  <footer>
-    <p>&copy; 2025 Groene Wereld</p>
-  </footer>
+    .product-card {
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background-color: #fff;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .product-info p {
+      margin: 0 0 10px;
+      color: #555;
+    }
+
+    .product-price {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product-card a {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #1a3d7c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .product-card a:hover {
+      background-color: #0f2a58;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-grid">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="schoenen.jpg" alt="Schoenen">
+      <div class="product-info">
+        <h3>DSTRCT Hoodie</h3>
+        <p>Zachte en comfortabele hoodie met streetstyle vibes.</p>
+        <div class="product-price">€49,95</div>
+        <a href="#">Bekijk product</a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="" alt="Broeken">
+      <div class="product-info">
+        <h3>Urban Cargo Pants</h3>
+        <p>Stevig, stijlvol en perfect voor de straat.</p>
+        <div class="product-price">€59,95</div>
+        <a href="#">Bekijk product</a>
+      </div>
+    </div>
+
+   <div class="product-card">
+      <img src="https://via.placeholder.com/250x200" alt="T-Shirts/Hoodies">
+      <div class="product-info">
+        <h3>Urban Cargo Pants</h3>
+        <p>Stevig, stijlvol en perfect voor de straat.</p>
+        <div class="product-price">€59,95</div>
+        <a href="#">Bekijk product</a>
+      </div>
+    </div>
+
+      <div class="product-card">
+      <img src="https://via.placeholder.com/250x200" alt="Accesiores">
+      <div class="product-info">
+        <h3>Urban Cargo Pants</h3>
+        <p>Stevig, stijlvol en perfect voor de straat.</p>
+        <div class="product-price">€59,95</div>
+        <a href="#">Bekijk product</a>
+      </div>
+    </div>
+
 </body>
 </html>
