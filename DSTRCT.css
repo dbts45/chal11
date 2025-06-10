@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background-color: #2e617d;
+    background-color: #183c79;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -34,15 +34,17 @@ body {
   }
   
   .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    background-color: #2233ce;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #1a3d7c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .product-card a:hover {
+      background-color: #0f2a58;
+    }
   .products {
     padding: 2rem;
   }

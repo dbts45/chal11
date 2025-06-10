@@ -1,4 +1,33 @@
-.product-grid {
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+
+  header {
+    background-color: #183c79;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+    .product-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -57,7 +86,6 @@
     .product-card a:hover {
       background-color: #0f2a58;
     }
-    
 .top-left-image {
     position: fixed;
     top: 0;
