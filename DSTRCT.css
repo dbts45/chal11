@@ -12,6 +12,13 @@ body {
     text-align: center;
   }
   
+  h2 {
+    font-family: ;
+    color: #d60d0d;
+    text-align: center;
+
+  }
+
   nav ul {
     list-style: none;
     padding: 0;
@@ -32,7 +39,8 @@ body {
     padding: 2rem;
     background-color: #e8f5e9;
   }
-  
+
+
   .btn {
       display: inline-block;
       padding: 10px 15px;
