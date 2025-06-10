@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background-color: #2e7d32;
+    background-color: #2e617d;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -36,7 +36,7 @@ body {
   .btn {
     display: inline-block;
     margin-top: 1rem;
-    background-color: #66bb6a;
+    background-color: #2233ce;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
