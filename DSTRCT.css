@@ -72,9 +72,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 120px;     /* Pas aan indien groter nodig is */
+    width: 120px;     
     height: auto;
-    z-index: 9999;    /* Zorgt dat het boven andere elementen blijft */
-    padding: 10px;    /* Optioneel: wat ruimte vanaf de rand */
+    z-index: 9999;    
+    padding: 10px;    
   }
-
