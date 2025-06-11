@@ -6,12 +6,19 @@ body {
   }
   
   header {
-    background-color: #2e617d;
+    background-color: #183c79;
     color: white;
     padding: 1rem;
     text-align: center;
   }
   
+  h2 {
+    font-family: ;
+    color: #d60d0d;
+    text-align: center;
+
+  }
+
   nav ul {
     list-style: none;
     padding: 0;
@@ -32,17 +39,20 @@ body {
     padding: 2rem;
     background-color: #e8f5e9;
   }
-  
+
+
   .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    background-color: #2233ce;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #1a3d7c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .product-card a:hover {
+      background-color: #0f2a58;
+    }
   .products {
     padding: 2rem;
   }
@@ -68,4 +78,12 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  
+  .top-left-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;     
+    height: auto;
+    z-index: 9999;    
+    padding: 10px;    
+  }
