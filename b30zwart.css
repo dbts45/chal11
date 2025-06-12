@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  .header {
+  background: linear-gradient(to right, #0f264e, #427ada, #0f264e);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      transition: transform 0.2s ease, font-size 0.2s ease;
+      display: inline-block;
+      margin: 0 10px;
+  }
+
+   nav li a:hover {
+         transform: scale(1.2);
+   }
