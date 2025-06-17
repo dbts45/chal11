@@ -6,7 +6,7 @@ body {
   }
   
    .header {
-  background: linear-gradient(to right, #0f264e, #427ada, #0f264e);
+  background:linear product-grid(to right, #0f264e, #427ada, #0f264e);
   color: white;
   padding: 2rem;
   text-align: center;
@@ -68,7 +68,7 @@ body {
     background-color: white;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 200px;
   }
@@ -76,7 +76,7 @@ body {
   .product-card img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 15 
   }
   .top-left-image {
     position: fixed;
