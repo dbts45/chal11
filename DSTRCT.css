@@ -8,6 +8,8 @@ body {
    .header {
   background:linear product-grid(to right, #0f264e, #427ada, #0f264e);
   color: white;
+  background: linear-gradient(to right, #0f264e, #427ada, #0f264e);
+  color: rgb(255, 255, 255);
   padding: 2rem;
   text-align: center;
 }
@@ -29,11 +31,20 @@ body {
     margin: 0 10px;
   }
   
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
   
+  nav li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      transition: transform 0.2s ease, font-size 0.2s ease;
+      display: inline-block;
+      margin: 0 10px;
+  }
+
+   nav li a:hover {
+         transform: scale(1.2);
+   }
+
   .hero {
     text-align: center;
     padding: 2rem;
@@ -50,9 +61,67 @@ body {
       border-radius: 5px;
     }
 
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      width: 250px;
+      height: 530px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background-color: #fff;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .product-info p {
+      margin: 0 0 10px;
+      color: #555;
+    }
+
+    .product-price {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product-card a {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #1a3d7c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
     .product-card a:hover {
       background-color: #0f2a58;
     }
+    
   .products {
     padding: 2rem;
   }
@@ -79,7 +148,7 @@ body {
     border-radius: 15 
   }
   .top-left-image {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 160px;     
